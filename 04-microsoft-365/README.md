@@ -9,3 +9,5 @@ Verified the domain in the Microsoft 365 admin center.
 - Domain: Rnovsky.onmicrosoft.com
 - Default domain: Yes
 - Status: Healthy
+
+![Microsoft 365 tenant domain verification](screenshots/01-tenant-domain.png)
