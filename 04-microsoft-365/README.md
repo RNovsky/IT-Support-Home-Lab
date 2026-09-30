@@ -58,3 +58,29 @@ Completed account creation, license assignment, and first sign-in verification.
 - Standard-user role configuration
 - First-sign-in password changes
 - Verification and documentation
+
+  ## 3. Password Reset and Access Verification
+
+### Scenario
+Simulated a Help Desk request from a user who forgot their password.
+
+### Reset settings
+Selected Pierrot Augustin and enabled:
+- Automatically create a password.
+- Require the user to change their password at the next sign-in.
+
+![Password reset settings](screenshots/08-password-reset-settings.png)
+
+### Reset confirmation
+Reset the password and verified the confirmation message:
+"Password has been reset."
+
+![Password reset confirmation](screenshots/09-password-reset-confirmed.png)
+
+### Sign-in verification
+Signed in using the new temporary password, completed the required password change, and verified access to the user account.
+
+![Sign-in after password reset](screenshots/10-sign-in-after-password-reset.png)
+
+### Result
+Successfully reset the user's password and verified sign-in after the password change. No passwords were included in this documentation.
