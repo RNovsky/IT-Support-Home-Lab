@@ -84,3 +84,82 @@ Signed in using the new temporary password, completed the required password chan
 
 ### Result
 Successfully reset the user's password and verified sign-in after the password change. No passwords were included in this documentation.
+
+## 4. Microsoft 365 Group Management
+
+### Scenario
+Create an IT Support collaboration group, assign an owner and a member, and verify the configuration.
+
+### Group creation
+Created a Microsoft 365 group with the following configuration:
+
+| Setting | Value |
+|---|---|
+| Name | IT Support |
+| Email | itsupport@Rnovsky.onmicrosoft.com |
+| Owner | Rischeld-Novsky Guillaume |
+| Member added | Pierrot Augustin |
+| Privacy | Private |
+| Admin role assignment | Disabled |
+| Microsoft Teams creation | No |
+
+![Group basics](screenshots/11-group-basics.png)
+![Owner assignment](screenshots/12-group-owner.png)
+![Member assignment](screenshots/13-group-member.png)
+![Group settings](screenshots/14-group-settings.png)
+
+### Review and creation
+Reviewed the configuration and confirmed successful group creation.
+
+![Group review](screenshots/15-group-review.png)
+![Group created](screenshots/16-group-created.png)
+
+### Verification
+Opened the group in Active teams and groups and verified its details, owner, and member.
+
+![Group details](screenshots/17-group-details.png)
+![Owner verified](screenshots/18-group-owner-verified.png)
+![Member verified](screenshots/19-group-member-verified.png)
+
+### Email configuration
+Selected the option to send copies of group emails and events to members' inboxes. Kept the group private and external senders disabled.
+
+![Group email settings](screenshots/20-group-email-settings.png)
+
+### Result
+Created the IT Support group and verified ownership and membership. Group creation did not assign user licenses; Pierrot's Office 365 E5 license was assigned separately in section 2.
+
+## 5. Outlook Email Delivery Verification
+
+### Scenario
+Verify that an email addressed to IT Support reaches a group member's personal inbox, then test a reply to the sender.
+
+### Test message
+Sent an email from Rischeld's account to itsupport@Rnovsky.onmicrosoft.com.
+
+Subject: Lab Test - IT Support Group Email
+
+Verified the message in Sent Items.
+
+![Test email sent](screenshots/21-group-test-email-sent.png)
+
+### Member inbox verification
+Signed in to Outlook as Pierrot Augustin and confirmed that the test message appeared in his personal Inbox.
+
+![Test email received](screenshots/22-group-test-email-received.png)
+
+### Reply verification
+Replied from Pierrot's account and verified receipt in Rischeld's Inbox.
+
+![Reply received](screenshots/23-email-reply-received.png)
+
+### Result
+Verified group email delivery to Pierrot's Inbox and successful reply delivery to Rischeld.
+
+### Skills demonstrated
+- Microsoft 365 group creation and configuration.
+- Owner and member assignment.
+- Membership verification.
+- Group email delivery configuration.
+- Outlook send, receive, and reply testing.
+- Documentation of actions and results.
