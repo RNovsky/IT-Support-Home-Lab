@@ -163,3 +163,46 @@ Verified group email delivery to Pierrot's Inbox and successful reply delivery t
 - Group email delivery configuration.
 - Outlook send, receive, and reply testing.
 - Documentation of actions and results.
+
+
+## 6. User Sign-in Blocking and Access Recovery
+
+### Scenario
+Temporarily suspend a test user's access, verify that sign-in is denied, then restore access and verify Outlook availability.
+
+**Test user:** Pierrot Augustin  
+**Username:** PAugustin@Rnovsky.onmicrosoft.com
+
+### Block sign-in
+Opened the user's account in Microsoft 365 admin center, selected **Block sign-in**, enabled **Block this user from signing in**, and saved the change.
+
+The admin center confirmed that the user was blocked.
+
+![User sign-in blocked](screenshots/24-user-sign-in-blocked.png)
+
+### Verify blocked access
+Attempted to access Outlook as Pierrot. Microsoft displayed an account-locked message and denied access.
+
+![Blocked sign-in test](screenshots/25-blocked-sign-in-test.png)
+
+### Restore access
+Cleared **Block this user from signing in** and saved the change. Reopened the panel to verify that the option was unchecked.
+
+![User sign-in unblocked](screenshots/26-user-sign-in-unblocked.png)
+
+### Verify access recovery
+Retested Outlook access as Pierrot and confirmed that his inbox loaded successfully.
+
+![Outlook access after unblock](screenshots/27-sign-in-after-unblock.png)
+
+### Troubleshooting observation
+During recovery, Outlook initially returned a **401** error while loading startup data. A later attempt successfully opened the inbox. The exact cause of the temporary error was not confirmed.
+
+### Result
+Verified access denial after blocking the user and successful Outlook access after restoring sign-in.
+
+### Skills demonstrated
+- User access suspension and restoration
+- Sign-in and application access verification
+- Authentication error identification
+- Documentation of administrative changes and test results
