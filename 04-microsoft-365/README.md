@@ -206,3 +206,57 @@ Verified access denial after blocking the user and successful Outlook access aft
 - Sign-in and application access verification
 - Authentication error identification
 - Documentation of administrative changes and test results
+
+  ## 7. Shared Mailbox Configuration and Testing
+
+### Scenario
+Configure a Help Desk shared mailbox so a support user can read requests and reply using the Help Desk identity.
+
+### Mailbox and User
+- Shared mailbox: Help Desk
+- Email: helpdesk@Rnovsky.onmicrosoft.com
+- Authorized user: Pierrot Augustin
+- User account: PAugustin@Rnovsky.onmicrosoft.com
+
+### Create the Shared Mailbox
+Created the Help Desk mailbox in the Microsoft 365 admin center.
+
+![Shared mailbox created](screenshots/29-shared-mailbox-created.png)
+
+### Add a Member
+Added Pierrot Augustin as a shared mailbox member.
+
+![Shared mailbox member](screenshots/30-shared-mailbox-member.png)
+
+### Verify Permissions
+Verified that Pierrot had both permissions:
+- **Full Access:** open the mailbox and read/manage messages.
+- **Send As:** send messages using the Help Desk identity.
+
+![Full Access permission](screenshots/31-shared-mailbox-full-access.png)
+
+![Send As permission](screenshots/32-shared-mailbox-send-as.png)
+
+### Test Mail Delivery and Access
+Sent a test support request from Rischeld to the Help Desk address.
+
+![Test email sent](screenshots/33-shared-mailbox-test-sent.png)
+
+Using Pierrot's Outlook session, opened the shared mailbox and verified that the request arrived.
+
+![Test email received](screenshots/34-shared-mailbox-test-received.png)
+
+### Test the Reply
+Replied from the shared mailbox. Verified that Rischeld received the response with **Help Desk** displayed as the sender.
+
+![Shared mailbox reply received](screenshots/35-shared-mailbox-reply-received.png)
+
+### Result
+Successfully tested shared mailbox access, incoming mail delivery, and a reply using the Help Desk identity.
+
+### Skills Practiced
+- Shared mailbox administration
+- Mailbox membership and delegated permissions
+- Full Access and Send As verification
+- Outlook shared mailbox access
+- Email delivery and reply testing
