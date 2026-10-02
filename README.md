@@ -32,13 +32,17 @@ TCP/IP, IPv4 addressing, subnetting, DNS, DHCP, connectivity testing, and networ
 Hands-on Microsoft 365 administration and support labs.
 
 ### 5. Cisco Packet Tracer
-VLANs, routing, switching, subnetting, network configuration, and troubleshooting.
+Built an HQ and branch network with VLANs, inter-VLAN routing, static routes, DHCP, DNS, HTTP, and guest access restrictions using IPv4 ACLs.
+
+[View the Cisco Packet Tracer lab](05-cisco-packet-tracer/)
 
 ## Certifications
 
 - CompTIA A+ ce
-- CCNA: Introduction to Networks — Cisco Networking Academy
 
+## Courses & Training
+
+- CCNA: Introduction to Networks — Cisco Networking Academy (completed course)
 ## Goal
 
 My goal is to continue developing practical skills in IT Support, Networking, and Cybersecurity through hands-on labs and real-world troubleshooting scenarios.
