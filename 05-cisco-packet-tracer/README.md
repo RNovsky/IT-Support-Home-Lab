@@ -124,3 +124,10 @@ To explore the lab, download the `.pkt` file and open it in Cisco Packet Tracer.
 - DNS records and HTTP services
 - Extended IPv4 ACLs
 - Connectivity testing and troubleshooting
+
+## Project Files
+
+- [Packet Tracer lab (.pkt)](packet-tracer/hq-branch-network-lab.pkt)
+- [Lab screenshots](screenshots/)
+
+Download the `.pkt` file and open it in Cisco Packet Tracer to explore the network.
