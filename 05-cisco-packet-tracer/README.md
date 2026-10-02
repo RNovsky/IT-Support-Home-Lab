@@ -107,12 +107,6 @@ Printer testing covered network connectivity only, not drivers or print jobs.
 - A Guest Branch client initially received an APIPA address. A repeated DHCP request succeeded; the original cause was not established.
 - Compared guest connectivity before and after applying ACLs.
 
-## Project Files
-
-- `screenshots/`: numbered configuration and validation screenshots.
-- `packet-tracer/`: saved Cisco Packet Tracer project.
-
-To explore the lab, download the `.pkt` file and open it in Cisco Packet Tracer.
 
 ## Skills Practiced
 
