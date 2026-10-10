@@ -25,9 +25,13 @@ Hands-on practice with domain configuration, users, groups, organizational units
 
 ### 2. Windows 11 Client Support
 Windows installation, domain joining, user support, software configuration, and troubleshooting.
+[View Windows 11 Domain Client Practice](01-windows-server-2025/README.md)
 
 ### 3. Networking
 TCP/IP, IPv4 addressing, subnetting, DNS, DHCP, connectivity testing, and network troubleshooting.
+[View Cisco Networking Lab](05-cisco-packet-tracer/README.md)
+
+[View Windows Server DNS & DHCP Practice](01-windows-server-2025/README.md)
 
 ### 4. Microsoft 365
 Hands-on Microsoft 365 administration and support labs.
