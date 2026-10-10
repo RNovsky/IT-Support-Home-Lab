@@ -21,6 +21,7 @@ This repository documents my hands-on practice with Windows Server, Active Direc
 
 ### 1. Windows Server & Active Directory
 Hands-on practice with domain configuration, users, groups, organizational units, permissions, Group Policy, DNS, and DHCP.
+[View Windows Server 2025 Lab — Documentation & Screenshots](01-windows-server-2025/README.md)
 
 ### 2. Windows 11 Client Support
 Windows installation, domain joining, user support, software configuration, and troubleshooting.
