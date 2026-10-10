@@ -31,6 +31,7 @@ TCP/IP, IPv4 addressing, subnetting, DNS, DHCP, connectivity testing, and networ
 
 ### 4. Microsoft 365
 Hands-on Microsoft 365 administration and support labs.
+[View Microsoft 365 Lab — Documentation & Screenshots](04-microsoft-365/README.md)
 
 ### 5. Cisco Packet Tracer
 Built an HQ and branch network with VLANs, inter-VLAN routing, static routes, DHCP, DNS, HTTP, and guest access restrictions using IPv4 ACLs.
